@@ -22,6 +22,8 @@
 		958EEF5423349B0000FD3668 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EEF5223349B0000FD3668 /* Order.swift */; };
 		958EEF5523349B0000FD3668 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EEF5323349B0000FD3668 /* Menu.swift */; };
 		958EEF5723349B1600FD3668 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 958EEF5623349B1600FD3668 /* menu.json */; };
+		95A29B1B23370A660059007D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A29B1A23370A660059007D /* AppView.swift */; };
+		95A29B1D233711DD0059007D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A29B1C233711DC0059007D /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		958EEF5223349B0000FD3668 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		958EEF5323349B0000FD3668 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		958EEF5623349B1600FD3668 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		95A29B1A23370A660059007D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		95A29B1C233711DC0059007D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				958EEF2023349AA100FD3668 /* AppDelegate.swift */,
 				958EEF2623349AA200FD3668 /* Assets.xcassets */,
 				958EEF2423349AA100FD3668 /* ContentView.swift */,
+				95A29B1A23370A660059007D /* AppView.swift */,
+				95A29B1C233711DC0059007D /* CheckoutView.swift */,
 				950BDFFC23351258000CCFAC /* ItemRow.swift */,
 				950BDFFE2335A259000CCFAC /* ItemDetail.swift */,
 				950BE0002335E5BD000CCFAC /* OrderView.swift */,
@@ -290,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958EEF5523349B0000FD3668 /* Menu.swift in Sources */,
+				95A29B1D233711DD0059007D /* CheckoutView.swift in Sources */,
 				958EEF2123349AA100FD3668 /* AppDelegate.swift in Sources */,
 				958EEF2323349AA100FD3668 /* SceneDelegate.swift in Sources */,
 				950BDFFD23351258000CCFAC /* ItemRow.swift in Sources */,
@@ -297,6 +304,7 @@
 				950BDFFF2335A259000CCFAC /* ItemDetail.swift in Sources */,
 				950BE0012335E5BD000CCFAC /* OrderView.swift in Sources */,
 				958EEF2523349AA100FD3668 /* ContentView.swift in Sources */,
+				95A29B1B23370A660059007D /* AppView.swift in Sources */,
 				958EEF5123349AF100FD3668 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
